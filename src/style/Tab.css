@@ -1,0 +1,20 @@
+#navsTab{
+    color:#fff !important; 
+    background: #000 !important;
+}
+.XMText{
+    font-weight: 700;
+    color: #fff !important;
+}
+.HomeTab:hover{
+    color: #fff !important;
+}
+.HomeTab{
+    color:#fff !important;
+}
+.MaqsadTab{
+    color: #fff !important;
+}
+.MadsadTab:hover{
+    color: #fff;
+}

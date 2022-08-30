@@ -1,0 +1,30 @@
+.solve{
+    transform: translateY(-112px);
+    width: 100%;
+    height: 800px;
+}
+.slvDiv{
+    transform: translateX(505px) translateY(-698px);
+    width: 844px;
+}
+.ulOne{
+    width: 700px;
+    transform: translateX(60px) translateY(120px);
+    list-style: none;
+  }
+.liOne{
+    padding: 5px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.ulOne .liOne::before {
+    content: " ";
+    color: #B7A16C;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+.vi64{
+    transform: translateX(260px) translateY(-8px);
+}

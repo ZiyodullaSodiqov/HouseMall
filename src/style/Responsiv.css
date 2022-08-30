@@ -1,0 +1,74 @@
+@media screen and (max-width: 600px) {
+    .logos {
+          transform: translateY(-70px) translateX(30px);
+        }
+    .NavTab{
+          background-image:url('../images/mobilImg.bmp');
+    }
+    .logoText{
+        transform: translateY(-50px) translateX(50px);
+    }
+    .logoP{
+        width: 300px;
+        line-height: 3rem;
+        transform: translateY(-50px) translateX(50px);
+    }
+    .fndRp{
+        transform: translate(20px ,30px) !important;
+        width: 300px;
+        height: 550px;        
+    }
+    .foundBox{
+        height: 1500px !important;
+    }
+    .fbxH2{
+        width: 350px !important;
+        transform: translateY(60px) translateX(40px) !important;
+    }
+    .fbxP{
+        line-height: 1rem;
+        width:90% !important;
+        transform: translateY(80px) translateX(40px) !important;
+    }
+    .XmboxLogo{
+        transform: translate(50px , -5px) !important;
+    }
+    .fndName{
+        transform: translate(-491px , 535px) !important;
+    }
+    .fndJ{
+        transform: translateX(-491px) translateY(540px);
+        color: #fff !important;
+    }
+    .xmLogo{
+        transform: translate(10px ,10px);
+    }
+    .solve{
+        transform: translateY(120px);
+    }
+    .xmBox{
+        height: 900px !important;
+    }
+    .xmDivBox1{
+        width:280px !important;
+        height: 110px !important;
+    }
+    .xmDivBox2{
+        transform: translate(60px, 330px) !important;
+        width:280px !important;
+        height: 110px !important;
+    }
+    .xmDivBox3{
+        width:280px !important;
+        height: 110px !important;
+        transform: translate(60px, -40px) !important;
+    }
+    .xmDivBox4{
+        transform: translate(60px ,-20px) !important;
+        width:280px !important;
+        height: 110px !important;
+    }
+    .XmH1M{
+        transform: translate(60px ,0px) !important;
+    }
+}

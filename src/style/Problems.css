@@ -1,0 +1,21 @@
+.problem{
+    transform: translateY(-300px);
+}
+.ulTwo{
+    width: 600px;
+    transform: translate(700px , -120px);
+    list-style: none;
+  }
+.liTwo{
+    padding: 5px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.ulTwo .liTwo::before {
+    content: " ";
+    color: #B7A16C;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
