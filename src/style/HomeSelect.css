@@ -1,0 +1,17 @@
+.XmSlct{
+    width: 100%;
+    height: 570px;
+    background: #113a83
+}
+.XmsH2{
+    font-weight: 700;
+    width: 800px;
+    color: #B7A16C;
+    transform: translate(400px , -400px);
+}
+.XmSlct2H{
+    font-weight: 700;
+    width: 800px;
+    color: #fff;
+    transform: translate(400px , -350px);
+}

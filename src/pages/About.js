@@ -3,10 +3,12 @@ import '../style/About.css';
 import Vi159 from '../OutDocument/vi_159.png';
 import Ri25 from '../OutDocument/ri_25.png';
 import Ri35 from '../OutDocument/ri_35.png';
+import Tabs from './Tabs';
 
     function About(){
         return(
             <>
+                <Tabs />
                 <div className='about'>
                     <img src={Vi159} alt={''}></img>
                     <img src={Ri25} style={{position:"absolute" , transform:"translateY(146px) translateX(-414px)"}} alt={''}></img>

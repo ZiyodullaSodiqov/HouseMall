@@ -1,13 +1,16 @@
 import React from 'react';
 import '../style/Problems.css';
 import Ri23 from '../OutDocument/ri_23.png';
+import Tabs from './Tabs';
+import '../style/Responsiv.css';
 
     function Problems(){
         return(
             <>
+            <Tabs />
             <div className='problem'>
-                <img src={Ri23} style={{transform:"translate(250px , 250px)"}}></img>
-                <h3 style={{color:"#113a83" , width:"450px" , transform:"translate(780px , -150px)" , fontWeight:"700"}}>
+                <img src={Ri23} className="ri23"></img>
+                <h3 className='prlbmH3'>
                     Келиб чикадиган муаммолар
                 </h3>
                 <ul className='ulTwo'>

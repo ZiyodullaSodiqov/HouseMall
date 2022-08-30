@@ -3,27 +3,27 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import '../style/Tab.css';
-import MainBoxNav from './Nav';
 
   const Tabs = () => {
   return (
     <>
     <Navbar id='navsTab' expand="lg">
       <Container>
-        <Navbar.Brand className="XMText" href="#home">House Mall</Navbar.Brand>
+        <Navbar.Brand className="XMText" href="/">House Mall</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/nav" className="HomeTab">Home</Nav.Link>
             <Nav.Link href="/found" className="MaqsadTab">Maqsad</Nav.Link>
+            <Nav.Link href="/search" className="MaqsadTab">Uy Topish</Nav.Link>
+            <Nav.Link href="/selling" className="MaqsadTab">Uy sotib Olish</Nav.Link>
+            <Nav.Link href="/problems" className="MaqsadTab">Muammolar</Nav.Link>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Item href="/about">Biz haqimizda</NavDropdown.Item>
+              <NavDropdown.Item href="/bolimlar">Bo'limlar</NavDropdown.Item>
+              <NavDropdown.Item href="/homeSelect">Uy Ko`rish</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
+              <NavDropdown.Item href="/">
                 Separated link
               </NavDropdown.Item>
             </NavDropdown>

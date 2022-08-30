@@ -1,22 +1,22 @@
 @media screen and (max-width: 600px) {
     .logos {
-          transform: translateY(-70px) translateX(30px);
+          transform: translateY(-70px) translateX(30px) !important;
         }
     .NavTab{
-          background-image:url('../images/mobilImg.bmp');
+          background-image:url('../images/mobilImg.bmp') !important;
     }
     .logoText{
-        transform: translateY(-50px) translateX(50px);
+        transform: translateY(-50px) translateX(50px) !important;
     }
     .logoP{
-        width: 300px;
-        line-height: 3rem;
-        transform: translateY(-50px) translateX(50px);
+        width: 300px !important;
+        line-height: 3rem !important;
+        transform: translateY(-50px) translateX(50px) !important;
     }
     .fndRp{
         transform: translate(20px ,30px) !important;
-        width: 300px;
-        height: 550px;        
+        width: 300px !important;
+        height: 550px !important;        
     }
     .foundBox{
         height: 1500px !important;
@@ -70,5 +70,32 @@
     }
     .XmH1M{
         transform: translate(60px ,0px) !important;
+    }
+    .SlvH1M{
+        font-size: 25px !important;
+        width: 340px;
+        transform: translate(30px ,0px) !important;
+    }
+    .SlvH2M{
+        color: #113a83 !important;
+        transform: translate(30px , 10px) !important;
+        width: 340px !important;
+    }
+    .SlvH3M{
+        transform: translate(30px ,20px) !important;
+    }
+    .ulOne{
+        transform: translate(-8px ,30px) !important;
+        width: 350px !important;
+    }
+    .Ri21{
+        display: none !important;
+    }
+    .ri23{
+        display: none !important;
+    }
+    .ulTwo{
+        width: 400px !important;
+        transform:translate(-10px ,-10px) !important;
     }
 }

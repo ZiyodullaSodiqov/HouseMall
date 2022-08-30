@@ -1,0 +1,15 @@
+.section{
+    width: 100%;
+    height: 636px;
+    background-color: #113a83;
+    background-image: url('../images/section.bmp');
+}
+.cmpn{
+    font-weight: 700;
+    width: 700px;
+    color: #fff;
+    transform: translate(300px , 20px);
+}
+.cmpLogin{
+    transform: translate(320px , 30px);
+}
