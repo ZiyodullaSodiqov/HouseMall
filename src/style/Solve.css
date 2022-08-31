@@ -7,16 +7,19 @@
     font-weight: 700;
     width: 800px;
     transform: translate(60px , 50px);  
+    font-family: 'DM Sans', sans-serif;
 }
 .SlvH2M{
     color: #113a83;
     transform: translate(120px , 80px);
     font-weight: 700;
     width: 400px;
+    font-family: 'DM Sans', sans-serif;
 }
 .SlvH3M{
     transform: translate(60px , 90px);
-    width: 200px;
+    width: 300px;
+    font-family:'Overpass', sans-serif;
 }
 .slvDiv{
     transform: translateX(505px) translateY(-698px);
@@ -31,6 +34,7 @@
     padding: 5px;
     font-size: 25px;
     font-weight: 700;
+    font-family:'Overpass', sans-serif;
 }
 .Ri21{
     transform: translate(1000px , -380px);

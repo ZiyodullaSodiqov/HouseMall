@@ -1,9 +1,9 @@
-/*None css*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Overpass:wght@700&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-/* body{
-    background: #113a83;
-} */
+::-webkit-scrollbar {
+    display: none;
+  }

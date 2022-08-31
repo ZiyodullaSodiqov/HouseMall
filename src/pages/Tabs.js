@@ -13,11 +13,12 @@ import '../style/Tab.css';
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/nav" className="HomeTab">Home</Nav.Link>
+            <Nav.Link href="/nav" className="HomeTab">Uy</Nav.Link>
             <Nav.Link href="/found" className="MaqsadTab">Maqsad</Nav.Link>
             <Nav.Link href="/search" className="MaqsadTab">Uy Topish</Nav.Link>
             <Nav.Link href="/selling" className="MaqsadTab">Uy sotib Olish</Nav.Link>
             <Nav.Link href="/problems" className="MaqsadTab">Muammolar</Nav.Link>
+            <Nav.Link href="/getFeedback" className="MaqsadTab">Yordam</Nav.Link>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="/about">Biz haqimizda</NavDropdown.Item>
               <NavDropdown.Item href="/bolimlar">Bo'limlar</NavDropdown.Item>

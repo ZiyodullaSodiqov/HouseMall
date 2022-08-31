@@ -9,6 +9,7 @@
     font-weight: 700;
     transform: translateX(730px) translateY(-497px);
     color:#B7A16C;
+    font-family: 'DM Sans', sans-serif;
 }
 .fbxP{
     width: 580px;
@@ -16,6 +17,7 @@
     transform: translateX(730px) translateY(-480px);
     font-size: 18px;
     line-height: 2.5rem;
+    font-family: 'Overpass', sans-serif;
 }
 .names{
     width: 420px;
@@ -25,10 +27,12 @@
     transform:translate(50px , 110px);
 }
 .fndName{
+    font-family: 'DM Sans', sans-serif;
     color:#B7A16C;
     width: 400px;
 }
 .fndJ{
+    font-family: 'Overpass', sans-serif;
     color: #fff;
-    width: 400px;
+    width: 500px;
 }

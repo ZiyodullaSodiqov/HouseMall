@@ -9,13 +9,15 @@
     color: #fff;
     font-size: 18px;
     line-height: 2.5rem;
-    transform: translate(650px , -450px) ;
+    transform: translate(650px , -450px);
+    font-family:'Overpass', sans-serif;
 }
 .abtP2{
+    font-family:'Overpass', sans-serif;
     width: 450px;
     font-weight: 700;
     color: #fff;
     font-size: 18px;
     line-height: 2.5rem;
-    transform: translate(650px , -400px) ;
+    transform: translate(650px , -400px);
 }

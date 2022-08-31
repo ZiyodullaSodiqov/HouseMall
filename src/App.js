@@ -9,6 +9,7 @@ import Problem from './pages/Problems'
 import About from './pages/About';
 import Section from './pages/Section';
 import HomeSelect from './pages/HomeSelect';
+import GetHome from './pages/GetHome';
 
 import {
   BrowserRouter,
@@ -30,6 +31,7 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/bolimlar" component={Section} />
         <Route path="/homeSelect" component={HomeSelect} />
+        <Route path="/getFeedback" component={GetHome} />
       </Switch>
       </div>
     </BrowserRouter>

@@ -12,6 +12,7 @@
     transform: translateX(950px);
 }
 .xmLogo{
+    font-family: 'DM Sans', sans-serif;
     width: 300px;
     color:#fff;
     transform: translateX(60px);
@@ -57,6 +58,7 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c3af80",endColorstr="#ffffff",GradientType=1);
 }
 .XmH1M{
+    font-family: 'DM Sans', sans-serif;
     width: 450px;
     color: #B7A16C;
     transform: translate(496px , -56px);
